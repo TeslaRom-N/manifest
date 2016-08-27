@@ -31,6 +31,10 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
+  <!-- temp CM -->
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="staging/cm-14.0" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="staging/cm-14.0" />
+
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
