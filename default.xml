@@ -22,6 +22,7 @@
   <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="art" groups="pdk" remote="tesla" />
   <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="tesla" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="tesla" />
@@ -66,7 +67,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
