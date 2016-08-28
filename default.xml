@@ -34,17 +34,24 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
+  <!-- Ant-wireless -->
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="staging/cm-14.0" />
+
   <!-- temp CM -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="staging/cm-14.0" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="staging/cm-14.0" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="staging/cm-14.0" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="staging/cm-14.0" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="staging/cm-14.0" />
   <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="staging/cm-14.0" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="staging/cm-14.0" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="staging/cm-14.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="github" revision="staging/cm-14.0" />
 
