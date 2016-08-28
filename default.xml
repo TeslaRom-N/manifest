@@ -25,7 +25,10 @@
   <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="tesla" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="tesla" />
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="tesla" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="tesla" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="tesla" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
@@ -288,7 +291,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
@@ -307,7 +309,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -360,7 +361,6 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
