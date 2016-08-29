@@ -30,6 +30,7 @@
   <project path="external/zip" name="external_zip" remote="tesla" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="tesla" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tesla" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="tesla" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
@@ -319,7 +320,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
