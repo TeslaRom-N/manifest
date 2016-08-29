@@ -45,7 +45,8 @@
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="staging/cm-14.0" />
 
   <!-- Telephony -->
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />  
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" /> 
 
   <!-- temp CM -->
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="github" revision="staging/cm-14.0" />
