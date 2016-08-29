@@ -33,6 +33,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tesla" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="tesla" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
@@ -42,6 +43,9 @@
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="staging/cm-14.0" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="staging/cm-14.0" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="staging/cm-14.0" />
+
+  <!-- Telephony -->
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />  
 
   <!-- temp CM -->
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="github" revision="staging/cm-14.0" />
@@ -341,7 +345,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -370,7 +373,6 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
