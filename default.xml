@@ -122,7 +122,7 @@
 
   <!-- Ril -->
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
+  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="tesla" revision="n7.0-caf" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
