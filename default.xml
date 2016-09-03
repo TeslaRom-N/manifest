@@ -18,8 +18,8 @@
            sync-j="4" />
 
   <!-- Tesla Repo's -->
-  <project path="manifest" name="manifest" remote="tesla" />
-  <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
+  <project path="manifest" name="manifest" remote="tesla" revision="n7.0-caf" />
+  <project path="build" name="build" groups="pdk,tradefed" remote="tesla" revision="n7.0-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="art" groups="pdk" remote="tesla" />
@@ -35,7 +35,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" revision="n7.0-caf" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" revision="n7.0-caf"/>
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" revision="n7.0-caf" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
   <!-- HardWare QCOM -->
