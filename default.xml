@@ -35,6 +35,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" revision="n7.0-caf" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" revision="n7.0-caf"/>
   <project path="system/extras" name="system_extras" groups="pdk" remote="tesla" revision="n7.0-caf" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" revision="n7.0-caf" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" revision="n7.0-caf" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
@@ -133,7 +134,6 @@
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" remote="github" revision="staging/cm-14.0-caf" /> 
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="github" revision="staging/cm-14.0-caf" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="staging/cm-14.0" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="staging/cm-14.0" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="staging/cm-14.0" />
