@@ -99,6 +99,7 @@
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="staging/cm-14.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="staging/cm-14.0" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="staging/cm-14.0" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/guava" name="CyanogenMod/android_external_guava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
