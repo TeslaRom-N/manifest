@@ -96,8 +96,10 @@
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="staging/cm-14.0" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="staging/cm-14.0" />
   <project path="external/doclava" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="staging/cm-14.0" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="staging/cm-14.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="staging/cm-14.0" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="staging/cm-14.0" />
