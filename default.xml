@@ -35,6 +35,8 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="tesla" />
