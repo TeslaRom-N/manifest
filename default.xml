@@ -117,6 +117,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="staging/cm-14.0" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="staging/cm-14.0" />
   <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" remote="github" revision="staging/cm-14.0" />
@@ -300,7 +301,6 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" />
