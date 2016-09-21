@@ -8,8 +8,8 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote name = "bb"
-          fetch = "https://bitbucket.org/" />
+  <remote  name = "bb"
+           fetch = "https://bitbucket.org/" />
 
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
