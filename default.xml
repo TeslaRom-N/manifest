@@ -35,6 +35,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tesla" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" revision="n7.0" />  
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tesla" revision="n7.0" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" revision="n7.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="tesla" revision="n7.0" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
