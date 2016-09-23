@@ -22,6 +22,7 @@
 
   <!-- Tesla Repo's -->
   <project path="manifest" name="manifest" remote="tesla" revision="n7.0-caf" />
+  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" revision="n7.0" />  
   <project path="build" name="build" groups="pdk,tradefed" remote="tesla" revision="n7.0-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -62,9 +63,9 @@
   <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8937" />
   <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8960" />
-    <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="staging/cm-14.0-caf-8994" />
-    <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.0-caf-8996" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="staging/cm-14.0-caf" />
   <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" remote="github" revision="staging/cm-14.0" />
@@ -92,7 +93,7 @@
 
   <!-- Wlan -->
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="staging/cm-14.0" />
-    <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.0-caf" />
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.0-caf" />
 
   <!-- Ant-wireless -->
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="staging/cm-14.0" />
@@ -100,7 +101,6 @@
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="staging/cm-14.0" />
 
   <!-- temp CM -->
-  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="github" revision="staging/cm-14.0" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="staging/cm-14.0" />
