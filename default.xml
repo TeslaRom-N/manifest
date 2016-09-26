@@ -104,7 +104,6 @@
 
   <!-- temp CM -->
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
-  <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="staging/cm-14.0" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="staging/cm-14.0" />
@@ -179,8 +178,21 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/intel/edison" name="device/intel/edison" groups="device" />
+  <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
+  <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" remote="aosp" />
+  <project path="device/intel/edison" name="device/intel/edison" groups="device" />
+  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" />
