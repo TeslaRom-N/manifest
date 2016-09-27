@@ -41,7 +41,7 @@
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tesla" revision="n7.0" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" revision="n7.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="tesla" revision="n7.0" />
-  <project path="system/bt" name="system_bt" groups="pdk" remote="github" remote="tesla" revision="n7.0" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="tesla" revision="n7.0" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
