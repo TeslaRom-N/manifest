@@ -15,7 +15,7 @@
            fetch="https://github.com/TeslaRom-N/"
            revision="n7.0-caf" /> 
 
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r11"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
