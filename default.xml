@@ -32,6 +32,7 @@
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="tesla" revision="n7.0" />  
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="tesla" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="tesla" revision="n7.0" />
   <project path="external/zlib" name="external_zlib" groups="pdk" remote="tesla" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="tesla" />
   <project path="frameworks/base" name="frameworks_base" remote="tesla" />
@@ -403,7 +404,6 @@
   <project path="external/testng" name="platform/external/testng" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
