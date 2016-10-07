@@ -110,7 +110,7 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="cm-14.0" />
 
   <!-- Slim -->
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="ng7.0" />
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
 
   <!-- temp CM -->
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
