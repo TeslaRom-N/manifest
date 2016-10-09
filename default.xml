@@ -39,6 +39,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="tesla" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tesla" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tesla" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" />
@@ -492,7 +493,6 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
