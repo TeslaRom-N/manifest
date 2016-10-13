@@ -115,9 +115,6 @@
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="cm-14.0" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="pdk" remote="tesla" />
 
-  <!-- Slim -->
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
-
   <!-- temp CM -->
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-14.0" />
