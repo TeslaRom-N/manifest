@@ -160,28 +160,28 @@
   <project path="external/vim" name="external_vim" remote="tesla" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="tesla" />
   <project path="external/zip" name="external_zip" remote="tesla" />
-  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="cm-14.0" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-14.0" />
-  <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-14.0" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.0" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tesla" revision="n7.0" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="libcore" name="libcore" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tesla" revision="n7.0" />
+  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" revision="n7.0" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="system/media" name="system_media" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="system/qcom" name="system_qcom" groups="qcom" remote="tesla" revision="n7.0" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="tesla" revision="n7.0" />
+  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" revision="n7.0" />
+  <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="tesla" revision="n7.0" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
