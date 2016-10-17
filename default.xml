@@ -119,47 +119,47 @@
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="pdk" remote="tesla" />
 
   <!-- temp CM -->
-  <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-14.0" />
-  <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="cm-14.0" remote="github" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-14.0" />
-  <project path="external/doclava" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-14.0" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-14.0" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-14.0" />
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-14.0" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-14.0" />
-  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-14.0" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="github" revision="cm-14.0" />
-  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="cm-14.0" />
-  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="cm-14.0" />
-  <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="external/gson" name="CyanogenMod/android_external_gson" revision="cm-14.0" remote="github" />
-  <project path="external/json-c" name="CyanogenMod/android_external_json-c" revision="cm-14.0" remote="github" />
-  <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" revision="cm-14.0" remote="github" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-14.0" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-14.0" />
-  <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-14.0" />
-  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" revision="cm-14.0" />
-  <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="cm-14.0" remote="github" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="cm-14.0" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
-  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-14.0"/>
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/unzip" name="CyanogenMod/android_external_unzip" remote="github" revision="cm-14.0" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="cm-14.0" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" revision="cm-14.0" />
+  <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="external/bash" name="external_bash" remote="tesla" />
+  <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="tesla" />
+  <project path="external/brctl" name="external_brctl" remote="tesla" />
+  <project path="external/connectivity" name="external_connectivity" remote="tesla" />
+  <project path="external/doclava" name="external_doclava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="tesla" />
+  <project path="external/ebtables" name="external_ebtables" remote="tesla" />
+  <project path="external/exfat" name="external_exfat" remote="tesla" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="tesla" />
+  <project path="external/ffmpeg" name="external_ffmpeg" remote="tesla" />
+  <project path="external/fuse" name="external_fuse" remote="tesla" />
+  <project path="external/fsck_msdos" name="external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="external/ipsec-tools" name="external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="external/libncurses" name="external_libncurses" remote="tesla" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="tesla" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="tesla" />
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="tesla" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="tesla" />
+  <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="tesla" />
+  <project path="external/libtar" name="external_libtar" remote="tesla" />
+  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="tesla" />
+  <project path="external/gson" name="external_gson" remote="tesla" />
+  <project path="external/json-c" name="external_json-c" remote="tesla" />
+  <project path="external/mksh" name="external_mksh" groups="pdk" remote="tesla" />
+  <project path="external/mm-dash" name="external_mm-dash" remote="tesla" />
+  <project path="external/nano" name="external_nano" remote="tesla" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="tesla" />
+  <project path="external/openssh" name="external_openssh" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
+  <project path="external/pigz" name="external_pigz" remote="tesla" />
+  <project path="external/protobuf-c" name="external_protobuf-c" remote="tesla" />
+  <project path="external/powertop" name="external_powertop" remote="tesla" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="tesla" />
+  <project path="external/stlport" name="external_stlport" remote="tesla" />
+  <project path="external/sony/boringssl-compat" name="external_sony_boringssl-compat" remote="tesla" />
+  <project path="external/tinyalsa" name="external_tinyalsa" groups="pdk" remote="tesla"/>
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="tesla" />
+  <project path="external/unzip" name="external_unzip" remote="tesla" />
+  <project path="external/vim" name="external_vim" remote="tesla" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="tesla" />
+  <project path="external/zip" name="external_zip" remote="tesla" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-14.0" />
