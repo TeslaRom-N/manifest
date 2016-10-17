@@ -42,6 +42,7 @@
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tesla" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="tesla" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs"  remote="tesla" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
@@ -51,6 +52,7 @@
   <project path="system/bt" name="system_bt" groups="pdk" remote="tesla" />
   <project path="system/core" name="system_core" groups="pdk" remote="tesla" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="tesla" />
+  <project path="vendor/qcom/opensource/bluetooth" name="packages_apps_BluetoothExt" remote="tesla" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
   <!-- OMS -->
@@ -163,7 +165,6 @@
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="cm-14.0" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.0" />
   <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-14.0" />
   <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="cm-14.0" />
@@ -181,7 +182,6 @@
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.0" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.0" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.0" />
-  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github"  revision="cm-14.0" />
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
