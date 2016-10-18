@@ -29,6 +29,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="tesla" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="tesla" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="tesla" />
+  <project path="external/DUtils" name="external_DUtils" remote="tesla" />  
   <project path="external/guava" name="external_guava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />  
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="tesla" />
@@ -42,6 +43,7 @@
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tesla" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="tesla" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="tesla" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs"  remote="tesla" />
