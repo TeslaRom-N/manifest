@@ -125,6 +125,10 @@
   <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="tesla" revision="n7.0" />
   <project path="vendor/tesla" name="vendor_tesla" remote="tesla" />
 
+  <!-- LockClock -->
+  <project path="external/google" name="external_google" remote="tesla" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />  
+  
   <!-- OMS -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
