@@ -24,6 +24,7 @@
   <project path="manifest" name="manifest" remote="tesla" revision="testing" />
   <project path="frameworks/base" name="frameworks_base" remote="tesla" revision="testing" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tesla" revision="testing" />
+  <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" revision="testing" />
 
   <!-- Tesla Repo's -->
   <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
@@ -107,7 +108,6 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="tesla" />  
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" revision="n7.0" />
-  <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="tesla" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
