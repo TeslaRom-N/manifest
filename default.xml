@@ -128,6 +128,12 @@
   <!-- LockClock -->
   <project path="external/google" name="external_google" remote="tesla" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />  
+
+  <!-- OTA -->
+  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tesla" revision="n7.0" />
+  <project path="OTA_config" name="OTA_config" remote="github" revision="master" >
+      <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
   
   <!-- OMS -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
