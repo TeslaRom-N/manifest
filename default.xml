@@ -133,7 +133,7 @@
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tesla" revision="n7.0" />
-  <project path="OTA_config" name="OTA_config" remote="github" revision="master" >
+  <project path="OTA_config" name="OTA_config" remote="tesla" revision="master" >
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
   
