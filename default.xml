@@ -44,7 +44,7 @@
   <project path="external/brctl" name="external_brctl" remote="tesla" />
   <project path="external/connectivity" name="external_connectivity" remote="tesla" />
   <project path="external/doclava" name="external_doclava" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
-  <project path="external/DUtils" name="external_DUtils" remote="tesla" />  
+  <project path="external/DUtils" name="external_DUtils" remote="tesla" revision="testing" />  
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="tesla" />
   <project path="external/ebtables" name="external_ebtables" remote="tesla" />
   <project path="external/exfat" name="external_exfat" remote="tesla" />
