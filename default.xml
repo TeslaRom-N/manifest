@@ -13,15 +13,15 @@
 
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
-           revision="n7.0" /> 
+           revision="n7.1" /> 
 
-  <default revision="refs/tags/android-7.0.0_r19"
+  <default revision="refs/tags/android-7.1.0_r7"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
   <!-- Tesla Repo's -->
-  <project path="manifest" name="manifest" remote="tesla" revision="n7.0" />
+  <project path="manifest" name="manifest" remote="tesla" revision="n7.1" />
   <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -154,7 +154,7 @@
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="tesla" revision="n7.0-caf" />
 
   <!-- Wlan -->
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.0" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.1" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="tesla" revision="n7.0-caf" />
 
   <!-- Ant-wireless -->
@@ -175,8 +175,8 @@
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="tesla" revision="n7.0" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="tesla" revision="n7.0-caf" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="tesla" revision="n7.0" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" remote="tesla" revision="n7.0" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" remote="tesla" revision="n7.1" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0-caf-8937" />
@@ -185,7 +185,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.0-caf-8996" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1" />
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0-caf-8937" />
@@ -194,7 +194,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.0-caf-8996" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="tesla" revision="n7.0" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="tesla" revision="n7.1" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="tesla" revision="n7.0" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="pdk" remote="tesla" />
 
@@ -609,7 +609,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" revision="master" />
 
   <!-- Kernel Adiutor -->
-  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" />
-  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="tesla" />  
+  <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" revision="n7.0"/>
+  <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="tesla" revision="n7.0" />  
 
 </manifest>
