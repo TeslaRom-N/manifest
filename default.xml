@@ -88,7 +88,7 @@
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="tesla" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="tesla" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="tesla" />
-  <project path="libcore" name="libcore" groups="pdk" remote="tesla" revision="n7.0" />
+  <project path="libcore" name="libcore" groups="pdk" remote="tesla" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="tesla" revision="n7.0" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="tesla" />
