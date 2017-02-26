@@ -153,7 +153,7 @@
   </project>
   
   <!-- OMS -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
 
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="tesla" />
