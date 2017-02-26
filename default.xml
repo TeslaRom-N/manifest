@@ -95,6 +95,7 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="tesla" />
   <project path="frameworks/base" name="frameworks_base" remote="tesla" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="tesla" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="validus" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="tesla" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="tesla" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="tesla" />
