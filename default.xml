@@ -120,6 +120,7 @@
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="validus" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="tesla" />  
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="tesla" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="tesla" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="tesla" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="tesla" />
   <project path="packages/apps/TeslaCoil" name="packages_apps_TeslaCoil" remote="tesla" />
