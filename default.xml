@@ -28,9 +28,9 @@
 
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
-           revision="n7.1.1" /> 
+           revision="n7.1.2" /> 
 
-  <default revision="refs/tags/android-7.1.1_r38"
+  <default revision="refs/tags/android-7.1.2_r2"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
