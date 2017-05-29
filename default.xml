@@ -24,7 +24,7 @@
 
   <remote  name="validus"
            fetch="https://github.com/GZR-ValidusOS/"
-           revision="n7.1.1" /> 
+           revision="n7.1.2" /> 
 
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
@@ -205,7 +205,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8996" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1.1" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="tesla"/>
   <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8937" />
