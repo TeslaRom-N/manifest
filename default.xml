@@ -147,13 +147,7 @@
 
   <!-- LockClock -->
   <project path="external/google" name="external_google" remote="tesla" />
-  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />  
-
-  <!-- OTA -->
-  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tesla" revision="n7.1" />
-  <project path="OTA_config" name="Tesla-M-Devices/OTA_config" remote="github" revision="master" >
-      <copyfile src="ota_conf" dest="ota_conf" />
-  </project>
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />
   
   <!-- OMS -->
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
