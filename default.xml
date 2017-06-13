@@ -24,7 +24,11 @@
 
   <remote  name="validus"
            fetch="https://github.com/GZR-ValidusOS/"
-           revision="n7.1.2" /> 
+           revision="n7.1.2" />
+
+  <remote  name="tipsy"
+           fetch="https://github.com/TipsyOS/"
+           revision="n7.1" />
 
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
@@ -114,6 +118,7 @@
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="tesla" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs"  remote="tesla" />
+  <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="tesla" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="tesla" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="tesla" />
