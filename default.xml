@@ -34,6 +34,10 @@
            fetch="https://github.com/TeslaRom-N/"
            revision="n7.1.2" />
 
+  <remote  name="tipsylab"
+           fetch="https://gitlab.com/TipsyOs/"
+           revision="master" />
+
   <default revision="refs/tags/android-7.1.2_r17"
            remote="aosp"
            sync-c="true"
@@ -639,7 +643,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="GZR-ValidusOS/arm-eabi-4.9" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="DespairFactor/arm-eabi-5.x" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.x" name="arm-eabi-5.x" remote="tipsylab" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="ExistanceVIP/arm-eabi-6.x" remote="bb" />
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="tesla" />
